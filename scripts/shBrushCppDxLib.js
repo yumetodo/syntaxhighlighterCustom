@@ -389,7 +389,7 @@
 	Brush.prototype	= new SyntaxHighlighter.Highlighter();
 	Brush.aliases	= ['cpp_dxlib', 'c_dxlib'];
 
-	SyntaxHighlighter.brushes.Cpp = Brush;
+	SyntaxHighlighter.brushes.CppDxLib = Brush;
 
 	// CommonJS
 	typeof(exports) != 'undefined' ? exports.Brush = Brush : null;
