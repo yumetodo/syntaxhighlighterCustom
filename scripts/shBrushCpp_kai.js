@@ -7,7 +7,7 @@
  *
  * @version
  * 3.0.83 (July 02 2010)
- * 
+ *
  * @copyright
  * Copyright (C) 2004-2010 Alex Gorbatchev.
  * Changed by yumetodo
@@ -22,8 +22,8 @@
 
 	function Brush(){
 		// Copyright 2006 Shin, YoungJin
-	
-		var reserved = 	'__stdcall __cdecl alignas alignof and and_eq asm _asm auto bitand bitor ' + 
+
+		var reserved = 	'__stdcall __cdecl alignas alignof and and_eq asm _asm auto bitand bitor ' +
 						' bool break case catch class compl constexpr const const_cast continue __declspec decltype constexpr ' +
 						'default delete deprecated dllexport dllimport do dynamic_cast else enum __exception ' +
 						'explicit export extern __finally false for friend goto if inline ' +
@@ -31,7 +31,7 @@
 						'operator or or_eq private protected public register reinterpret_cast return selectany ' +
 						'sizeof static static_cast static_assert　struct switch template this thread throw true ' +
 						'try __try typedef typeid typename union using uuid virtual volatile ' +
-						'while xor xor_eq signed unsigned bool char __int8 short __int16 ' + 
+						'while xor xor_eq signed unsigned bool char __int8 short __int16 ' +
 						'__wchar_t wchar_t int __int32 long __int64 void float double ' +
 						'noexcept ' +
 						'static_if ';//N4661
@@ -62,7 +62,7 @@
 						'FPE_DENORMAL FPE_ZERODIVIDE FPE_OVERFLOW FPE_UNDERFLOW FPE_INEXACT FPE_UNEMULATED FPE_SQRTNEG FPE_STACKOVERFLOW FPE_STACKUNDERFLOW FPE_EXPLICITGEN ' +
 						'ATOMIC_CHAR_LOCK_FREE ATOMIC_CHAR_LOCK_FREE ATOMIC_CHAR_LOCK_FREE ATOMIC_CHAR16_T_LOCK_FREE ATOMIC_CHAR32_T_LOCK_FREE ATOMIC_WCHAR_T_LOCK_FREE ATOMIC_SHORT_LOCK_FREE ATOMIC_SHORT_LOCK_FREE ATOMIC_INT_LOCK_FREE ATOMIC_INT_LOCK_FREE ' +
 						'ATOMIC_LONG_LOCK_FREE ATOMIC_LONG_LOCK_FREE ATOMIC_LLONG_LOCK_FREE ATOMIC_LLONG_LOCK_FREE ' +
-						'_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES __GNUC__ __GNUC_MINOR__ __GNUC_PATCHLEVEL__ _countof ' + 
+						'_CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES __GNUC__ __GNUC_MINOR__ __GNUC_PATCHLEVEL__ _countof ' +
 						'KEY_INPUT_ESCAPE _CONST_RETURN __ICC __clang__ __clang_major__ __clang_minor__ __bool_true_false_are_defined _CRT_RAND_S ' +
 						'BOOST_VERSION BOOST_ASIO_ERROR_CATEGORY_NOEXCEPT BOOST_NOEXCEPT BOOST_ASIO_MSVC BOOST_USER_CONFIG BOOST_COMPILER_CONFIG BOOST_STDLIB_CONFIG ' +//Boost
 						'BOOST_PLATFORM_CONFIG BOOST_HAS_PRAGMA_ONCE __REQUIRED_RPCNDR_H_VERSION__ __REQUIRED_RPCSAL_H_VERSION__ BOOST_MPL_AUX_LAMBDA_SUPPORT ' +
@@ -121,7 +121,7 @@
 					    'gslice gslice_array indirect_array mask_array slice valarray vector bitset numeric_limits auto_ptr unique_ptr shared_ptr ' +
 					    'forward enable_shared_from_this ' +
 						//SIMD
-						'__m128 __m128i __m128d __m256 __m256i __m256d ' + 
+						'__m128 __m128i __m128d __m256 __m256i __m256d ' +
 						//AviUtl
 						'INPUT_PLUGIN_TABLE INPUT_HANDLE FILTER_DLL EXFUNC AVI_FILE_HANDLE SYS_INFO FILE_INFO FRAME_STATUS FILTER_PROC_INFO ' +
 						'COLOR_PLUGIN_TABLE COLOR_PROC_INFO MULTI_THREAD_FUNC PIXEL_YC ' +

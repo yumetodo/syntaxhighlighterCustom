@@ -7,7 +7,7 @@
  *
  * @version
  * 3.0.83 (July 02 2010)
- * 
+ *
  * @copyright
  * Copyright (C) 2004-2010 Alex Gorbatchev.
  *
@@ -36,7 +36,7 @@
 				? 'color1'
 				: 'comments'
 				;
-			
+
 			return [new SyntaxHighlighter.Match(match[0], match.index, css)];
 		}
 
@@ -51,7 +51,7 @@
 			{ regex: /\bpartial(?=\s+(?:class|interface|struct)\b)/g,	css: 'keyword' },			// contextual keyword: 'partial'
 			{ regex: /\byield(?=\s+(?:return|break)\b)/g,				css: 'keyword' }			// contextual keyword: 'yield'
 			];
-		
+
 		this.forHtmlScript(SyntaxHighlighter.regexLib.aspScriptTags);
 	};
 

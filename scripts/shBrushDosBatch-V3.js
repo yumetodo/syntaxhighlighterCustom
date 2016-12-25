@@ -3,7 +3,7 @@
  *
  * @version
  * 1.0.0 (August 24 2011)
- * 
+ *
  * @copyright
  * Copyright (C) 2011 Andreas Breitschopp.
  * http://www.ab-weblog.com
